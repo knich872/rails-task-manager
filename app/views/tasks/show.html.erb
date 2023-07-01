@@ -1,0 +1,9 @@
+<h1 class="m-4"><%= @task.title %></h1>
+<%= link_to("Edit", edit_task_path) %>
+
+
+<p class="mx-4"><%= @task.details %></p>
+
+<div class="mx-4">
+  <%= link_to("<- Go back to tasks", tasks_path) %>
+</div>
